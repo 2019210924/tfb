@@ -1,0 +1,38 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/image"
+        android:layout_width="80dp"
+        android:layout_height="80dp">
+
+    </ImageView>
+
+    <TextView
+        android:textColor="#2A857A"
+        android:layout_toEndOf="@+id/image"
+        android:gravity="center_vertical"
+        android:textSize="25sp"
+        android:id="@+id/lv_item1"
+        android:layout_width="350dp"
+        android:layout_height="50sp">
+
+    </TextView>
+
+
+    <TextView
+        android:textColor="#57ADA6"
+        android:layout_toEndOf="@+id/image"
+        android:layout_below="@+id/lv_item1"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:id="@+id/lv_item2"
+        android:layout_width="350dp"
+        android:layout_height="30sp">
+
+    </TextView>
+
+</RelativeLayout>

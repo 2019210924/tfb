@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".roy.RoyActivity"
+    android:background="#088B20">
+
+    <RelativeLayout
+        android:id="@+id/ly_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <TextView
+            android:id="@+id/text_top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/royy"
+        android:text="点它！别的没用！"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        android:textColor="#0B770B"
+        android:layout_width="90dp"
+        android:layout_height="60dp"/>
+    <View
+        android:id="@+id/div_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ww"
+        android:layout_above="@id/ly_tab_bar"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/div_top_bar"
+        android:layout_above="@id/div_tab_bar"
+        android:id="@+id/ly_content">
+    </FrameLayout>
+    <View
+        android:id="@+id/div_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#EEF5EF"
+        android:layout_below="@id/ly_top_bar"/>
+
+    <LinearLayout
+        android:id="@+id/ly_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="王"
+            android:textColor="#F8F7F7"
+            android:textSize="16sp"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/text_5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="⚪"
+            android:textColor="#FDFBFB"
+            android:textSize="16sp"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/text_6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="源"
+            android:textColor="#FCF9F9"
+            android:textSize="16sp"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:padding="5dp" />
+    </LinearLayout>
+</RelativeLayout>

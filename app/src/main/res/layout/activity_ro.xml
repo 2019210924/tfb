@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".roy.RoActivity">
+
+
+    <TextView
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:textColor="#009688"
+        android:textSize="15sp"
+        android:text="王源，2000年11月8日出生于重庆，中国内地男歌手、演员、主持人、作家，TFBOYS成员。
+
+2013年8月6日以组合形式出道。2015年首成有一千万粉丝的00后新浪博主。14岁开始独立作词作曲，2016年单曲《因为遇见你》获第9届城市至尊音乐榜年度听众最爱新人，2016亚洲新歌榜年度十大金曲；加盟王小帅导演的电影《地久天长》入围柏林国际电影节主竞赛单元。
+
+2017、2018年参加联合国经济及社会理事会青年论坛并英文议程演讲，是第一位受邀联合国青年论坛的中国艺人，也是首位登上联合国世界舞台的中国少年偶像 。2017年成立“源公益专项基金” 。2018年出任“联合国儿童基金会大使” 。"/>
+
+
+    <ImageView
+        android:background="@drawable/ro"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/r1"/>
+
+</RelativeLayout>

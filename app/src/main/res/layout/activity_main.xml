@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:background="#B1DCF0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/tfboys"
+
+        android:textColor="#0E4570"
+        android:background="#5DAAE7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+
+        android:text="tfboys"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/karry"
+        android:background="#58AAEB"
+        android:textColor="#071A81"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="王俊凯"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/roy"
+        android:background="#66B1EC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="王源"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/jackson"
+        android:background="#4DA6EC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="易烊千玺"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/music"
+        android:background="#4DA6EC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="第一次告白"
+        android:textAllCaps="false" />
+
+
+
+
+    <ImageView
+android:background="@drawable/dyc"
+        android:layout_below="@+id/jackson"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
